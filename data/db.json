@@ -11,6 +11,12 @@
       "title": "Make marketing emails",
       "details": "Lorem ipsum",
       "complete": false
+    },
+    {
+      "id": 3,
+      "title": "Edit description on news",
+      "details": "lorem",
+      "complete": true
     }
   ]
 }
