@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Create new hompage banner edited",
       "details": "Lorem ipsum edited",
-      "complete": false
+      "complete": true
     },
     {
       "id": 2,
@@ -21,13 +21,13 @@
     {
       "title": "this is title",
       "details": "lorem isp skj kasbla bka \n",
-      "complete": true,
+      "complete": false,
       "id": 4
     },
     {
       "title": "titile changet?312",
       "details": "bla bla bla changetg\n?hhh",
-      "complete": false,
+      "complete": true,
       "id": 5
     }
   ]
