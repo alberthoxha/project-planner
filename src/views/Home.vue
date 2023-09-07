@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <FilterNav @filterChange="current = $event" :current="current"/>
+    <FilterNav @filterChange="current = $event" :current="current" />
     <div if="projects.length">
       <div v-for="project in filteredProject" :key="project.id">
         <SingleProject :project="project" @delete="handleDelete" @complete="handleComplete" />
@@ -42,10 +42,10 @@ export default {
   },
   computed: {
     filteredProject() {
-      if(this.current === 'completed') {
+      if (this.current === 'completed') {
         return this.projects.filter(project => project.complete)
       }
-      else if(this.current === 'ongoing'){
+      else if (this.current === 'ongoing') {
         return this.projects.filter(project => !project.complete)
       }
       return this.projects
